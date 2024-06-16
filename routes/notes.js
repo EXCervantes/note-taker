@@ -1,6 +1,7 @@
+// Define router, import id generator, import file system utilities
 const db = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
-const { readFromFile, writeToFile, readThenAppend, removeNote } = require('../helpers/fsUtils');
+const { readFromFile, writeToFile, readThenAppend } = require('../helpers/fsUtils');
 
 
 db.get('/', (req, res) => {
@@ -30,17 +31,15 @@ db.post('/', (req, res) => {
     } else {
         res.json({
             message: 'Note is invalid',
-            id: userNote.id,
         });
     }
 });
 
-db.delete('/:id', (req, res) => {
-    let db = JSON.parse(fs.readFileSync('db/db.json'))
-    let deletedNote = db.filter(noteEntry => noteEntry.id !== req.params.id);
-    writeToFile('db/db.json', JSON.stringify(deletedNote));
-    res.json(deletedNote);
-    res.send(`Removed note id ${req.params.id}`);
+db.delete('/:id', async (req, res) => {
+    let db = JSON.parse(await readFromFile('db/db.json'))
+    let remainingNotes = db.filter(noteEntry => noteEntry.id !== req.params.id);
+    writeToFile('db/db.json', remainingNotes);
+    res.json(remainingNotes);
 })
 
 module.exports = db;

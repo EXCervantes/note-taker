@@ -4,7 +4,7 @@ const util = require('util');
 const readFromFile = util.promisify(fs.readFile);
 
 const writeToFile = (targetFile, noteData) =>
-    fs.writeFile(targetFile, JSON.stringify(noteData, null, 4), (err) =>
+    fs.writeFile(targetFile, JSON.stringify(noteData, null, 4), {}, (err) =>
         err ? console.error(err) : console.info(`\nData written to ${targetFile}`)
     );
 
@@ -20,11 +20,4 @@ const readThenAppend = (noteData, file) => {
     });
 };
 
-const removeNote = (noteData, targetFile) => {
-    JSON.parse(fs.readFileSync('db/db.json'))
-    const deletedNote = noteData.
-        fs.writeFileSync('db/db.json', JSON.stringify(deletedNote))
-    res.json();
-}
-
-module.exports = { readFromFile, writeToFile, readThenAppend, removeNote };
+module.exports = { readFromFile, writeToFile, readThenAppend };

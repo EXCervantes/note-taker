@@ -1,19 +1,5 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Something",
-        "text": "stuff",
-        "id": "52af97ef-3f09-4577-bd6d-cd0b97f07620"
-    },
-    {
-        "title": "Something else",
-        "text": "Stuff",
-        "id": "efecb65c-dba2-44cc-9c22-950689ccc1a8"
-    },
-    {
         "title": "Finish homework",
         "text": "Due Monday",
         "id": "4b223d3a-d961-405d-99ac-b867414d24aa"
@@ -22,5 +8,10 @@
         "title": "Walk dog",
         "text": "Walk them around the park",
         "id": "31787066-439e-41f6-bf47-b2cd721ec047"
+    },
+    {
+        "title": "Cook dinner",
+        "text": "Makin waffles!",
+        "id": "253a6b32-16dd-424c-ae69-76f6793f3ad0"
     }
 ]
