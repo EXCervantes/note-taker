@@ -35,7 +35,7 @@ db.post('/', (req, res) => {
     }
 });
 
-db.delete('/api/notes/:id', (req, res) => {
+db.delete('/:id', (req, res) => {
     let db = JSON.parse(fs.readFileSync('db/db.json'))
     let deletedNote = db.filter(noteEntry => noteEntry.id !== req.params.id);
     writeToFile('db/db.json', JSON.stringify(deletedNote));

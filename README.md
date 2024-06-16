@@ -14,15 +14,19 @@
 
 ### Screenshots of the Application
 
-![Screenshot 1](images/SVGLogoMakerscreenshot1.jpg)
-![Screenshot 2](images/SVGLogoMakerscreenshot2.jpg)
-![Screenshot 3](images/SVGLogoMakerscreenshot3.jpg)
+![Screenshot 1](images/notetakerscreenshot1.jpg)
+![Screenshot 2](images/notetakerscreenshot2.jpg)
+![Screenshot 3](images/notetakerscreenshot3.jpg)
 
 ## Credits
 
-Referenced for class constructors
+Referenced for giving each note a unique ID
 
-"_node.js - How to set default value for an answer using inquirer? - Stack Overflow_. (2022, January 24). Stack Overflow. Retrieved June 6, 2024, from https://stackoverflow.com/questions/70827997/modify-the-constructor-function-of-a-class
+"_javascript - NodeJS, crypto.randomUUID is not a function - Stack Overflow_. (2022, August 2). Stack Overflow. Retrieved June 14, 2024, from https://stackoverflow.com/questions/73205111/nodejs-crypto-randomuuid-is-not-a-function
+
+Referenced for deleting a note entry
+
+
   
 ## License
 

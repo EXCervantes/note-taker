@@ -20,7 +20,7 @@ const readThenAppend = (noteData, file) => {
     });
 };
 
-const removeNote = (noteData, file) => {
+const removeNote = (noteData, targetFile) => {
     JSON.parse(fs.readFileSync('db/db.json'))
     const deletedNote = noteData.
         fs.writeFileSync('db/db.json', JSON.stringify(deletedNote))
