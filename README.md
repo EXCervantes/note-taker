@@ -2,15 +2,12 @@
 
 ## Table of Contents
 
-- [Note Taker](#note-taker)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Technologies Used](#technologies-used)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [Screenshots of the Application](#screenshots-of-the-application)
-  - [Credits](#credits)
-  - [License](#license)
+1. [Description](#description)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Credits](#credits)
+6. [License](#license)
 
 ## Description
 
