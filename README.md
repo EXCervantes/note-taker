@@ -41,7 +41,7 @@ Then in the Terminal run `npm install` to install both the necessary dependencie
 
 Being this application uses Express to initiate the server, to run the application open the Terminal or GitBash in VSCode and run `node index.js`. This will initialize the application server. Click on [http://localhost:3000/](http://localhost:3000/) to open the browser. Alternatively, users can use the Render Dashboard link to gain a more convenient way to access the application
 
-
+A page will be displayed titled "Note Taker 📝". Click on the "Get Started" button then the user will be taken to a page with two columns. On the right a user can enter the title of a note with a description. Two button will be found above where a user can choose to save the note or clear the form if a mistake was entered. On the left column a list of notes entered as well as previous notes entered.
 
 ### Screenshots of the Application
 
@@ -58,8 +58,8 @@ Referenced for giving each note a unique ID
 
 Referenced for deleting a note entry
 
+"_javascript - Express.js delete request - Stack Overflow_. (2020, April 30). Stack Overflow. Retrieved June 14, 2024, from https://stackoverflow.com/questions/61526572/express-js-delete-request
 
-  
 ## License
 
 This project is licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
