@@ -18,9 +18,9 @@ This project is a note taking application designed to take in a user's notes and
 
 Working with creating GET, POST, and DELETE requests and routes allowed for more experience on the backend of applications. By using a VSCode extension Thunder Client it was possible to see the data being exchanged without the need to open the webpage itself. Using Nodemon made for quicker testing after debugging and saving the code files.
 
-Some of the challenging issues encountered were during the implementing of the DELETE request where the `db.json` would clear the data after deleting a note entry. In the future this can be avoided by hosting the database on a server and using things such as MySQL or other methods to handle posting and deleting data.
+Some of the challenging issues encountered were during the implementing of the DELETE request where the `db.json` would clear the data after deleting a note entry. In the future this can be avoided by hosting the database on a server and using things such as [PostgreSQL](https://www.postgresql.org/) or other methods to handle posting and deleting data.
 
-This application is deployed using Render Dashboard.
+This application is deployed using [Render Dashboard](https://dashboard.render.com/).
 
 
 ## Technologies Used
@@ -31,24 +31,19 @@ This application is deployed using Render Dashboard.
   
 ## Installation
 
-First to use this application head to the [Note Taker](https://github.com/EXCervantes/note-taker) and clone the repository. To learn how to clone a repository checkout this guide [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
-
-You must have `node` installed on your system. Go [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for instructions on how to do so.
-
-Then in the Terminal run `npm install` to install both the necessary dependencies. To initialize this application run `node index.js` in the Terminal. There click the [http://localhost:3000/](http://localhost:3000/) link to open the page in your browser.
-
+Alternatively, a user can run this application natively by heading over to [Note Taker](https://github.com/EXCervantes/note-taker) and cloneing the repository. To learn how to clone a repository checkout this guide [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository). You must have `node` installed on your system. Go [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for instructions on how to do so. Then in the Terminal run `npm install` to install both the necessary dependencies. 
 ## Usage
 
-Being this application uses Express to initiate the server, to run the application open the Terminal or GitBash in VSCode and run `node index.js`. This will initialize the application server. Click on [http://localhost:3000/](http://localhost:3000/) to open the browser. Alternatively, users can use the Render Dashboard link to gain a more convenient way to access the application
 
-A page will be displayed titled "Note Taker 📝". Click on the "Get Started" button then the user will be taken to a page with two columns. On the right a user can enter the title of a note with a description. Two button will be found above where a user can choose to save the note or clear the form if a mistake was entered. On the left column a list of notes entered as well as previous notes entered.
+If running this application natively, follow the instructions for natively running the application above. To initialize this application run `node index.js` in the Terminal. There click the [http://localhost:3000/](http://localhost:3000/) link to open the page in your browser.
+
+A page will be displayed titled "Note Taker 📝". Click on the "Get Started" button then the user will be taken to a page with two columns. On the right a user can enter the title of a note with a description. Two buttons will be found above where a user can choose to save the note or clear the form if a mistake was entered. On the left column a list of notes entered as well as previous notes entered. The trash can icon will delete a note from the list. The notes will persist in the notes list until a user deletes the note even upon page reload.
 
 ### Screenshots of the Application
 
 ![Initial Page](images/notetakerscreenshot1.jpg)
-![List of Notes](images/notetakerscreenshot2.jpg)
-![Added Note](images/notetakerscreenshot3.jpg)
-![Deleted Note](images/notetakerscreenshot4.jpg)
+![Added Note](images/notetakerscreenshot2.jpg)
+![Deleted Note](images/notetakerscreenshot3.jpg)
 
 ## Credits
 
