@@ -35,19 +35,20 @@ First to use this application head to the [Note Taker](https://github.com/EXCerv
 
 You must have `node` installed on your system. Go [here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for instructions on how to do so.
 
-Then in the Terminal run `npm install` to install both the necessary dependencies. To initialize this application run `node index.js` in the Terminal. There click the `http://localhost:3000/` link to open the page in your browser.
+Then in the Terminal run `npm install` to install both the necessary dependencies. To initialize this application run `node index.js` in the Terminal. There click the [http://localhost:3000/](http://localhost:3000/) link to open the page in your browser.
 
 ## Usage
 
-To run the application open the Terminal or GitBash in VSCode and run `node index.js`. This will initialize the application. Click on `http://localhost:3000/` to open the browser. Alternatively, users can use the Render Dashboard link to gain a more convenient way to access the application
+Being this application uses Express to initiate the server, to run the application open the Terminal or GitBash in VSCode and run `node index.js`. This will initialize the application server. Click on [http://localhost:3000/](http://localhost:3000/) to open the browser. Alternatively, users can use the Render Dashboard link to gain a more convenient way to access the application
 
 
 
 ### Screenshots of the Application
 
-![Screenshot 1](images/notetakerscreenshot1.jpg)
-![Screenshot 2](images/notetakerscreenshot2.jpg)
-![Screenshot 3](images/notetakerscreenshot3.jpg)
+![Initial Page](images/notetakerscreenshot1.jpg)
+![List of Notes](images/notetakerscreenshot2.jpg)
+![Added Note](images/notetakerscreenshot3.jpg)
+![Deleted Note](images/notetakerscreenshot4.jpg)
 
 ## Credits
 
